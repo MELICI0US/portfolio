@@ -1,0 +1,49 @@
+body {
+    color: #999999;              
+    background-color: #252525;  
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #999999;              
+    font-weight: bold;
+  }
+
+  a:hover {
+    color: #6e6e6e; 
+  }
+
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3d917c;
+
+  }
+
+  .navbar li {
+    float: left;
+
+  }
+
+  .navbar a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #252525;
+  }
+
+  .navbar a:hover {
+    background-color: #327564;
+  }
+
+  #contact div {
+    display: block;
+}
