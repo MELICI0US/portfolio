@@ -46,4 +46,22 @@ body {
 
   #contact div {
     display: block;
-}
+  }
+
+  .flexible {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .flexible div {
+    background-color: #3d917c;
+    color: #252525;
+    margin: 10px;
+    border-radius: 10%;
+    width: 30%;
+    height: 5em;
+    text-align: center;
+    vertical-align: center;
+  }
