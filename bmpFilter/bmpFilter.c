@@ -167,11 +167,11 @@ void parseHeaderAndApplyFilter(unsigned char* bmpFileAsBytes, int isGrayscale) {
   unsigned char* pixelArray = NULL;
 
   //printf("TODO: set offsetFirstBytePixelArray\n");
-  offsetFirstBytePixelArray = *(bmpFileAsBytes+10);
+  offsetFirstBytePixelArray = *(int*)(bmpFileAsBytes+10);
   //printf("TODO: set width\n");
-  width = *(bmpFileAsBytes+18);
+  width = *(int*)(bmpFileAsBytes+18);
   //printf("TODO: set height\n");
-  height = *(bmpFileAsBytes+22);
+  height = *(int*)(bmpFileAsBytes+22);
   //printf("TODO: set the pixelArray to the start of the pixel array\n");
   pixelArray = (bmpFileAsBytes+offsetFirstBytePixelArray);
 
