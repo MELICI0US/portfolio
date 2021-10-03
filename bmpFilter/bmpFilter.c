@@ -136,8 +136,6 @@ void applyFilterToPixelArray(unsigned char* pixelArray, int width, int height, i
     padding = 0;
   }
 
-
-
 #ifdef DEBUG
   printf("padding = %d\n", padding);
 #endif  
