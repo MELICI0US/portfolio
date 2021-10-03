@@ -119,7 +119,7 @@ void applyFilterToPixel(unsigned char* pixel, int isGrayscale) {
 
 void applyFilterToRow(unsigned char* row, int width, int isGrayscale) {
   //printf("TODO: void applyFilterToRow(unsigned char* row, int width, int isGrayscale)\n");
-  for (int i = 0; i<width; i++){
+  for (int i = 0; i*3<width; i++){
     unsigned char* pixel = row+(i*3);
     applyFilterToPixel(pixel, isGrayscale);
   }
